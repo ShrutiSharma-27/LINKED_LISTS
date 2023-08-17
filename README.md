@@ -22,7 +22,8 @@
 * Flexible: This is because the elements in Linked List  are not stored in contiguous memory locations unlike the array.
 * Efficient for large data: When working with large datasets linked lists play a crucial role as it can grow and shrink dynamically.
 * Scalability: Contains the ability to add or remove elements at any position.
-
+* Optimally utilise space when you have fragmented memory space (not contiguous).
+  
 ### Disadvantages of Linked Lists :
 
 * Memory usage: More memory is required in the linked list as compared to an array. Because in a linked list, a pointer is also required to store the address of the next element and it requires extra memory for itself.
