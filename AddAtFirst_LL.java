@@ -85,10 +85,11 @@ class LinkedList{
         temp.data=value;
         temp.next=head;
         head=temp;
+        size++;
     }
 }
 
-public class AddFirst_LL {
+public class AddAtFirst_LL {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.addLast(23);
@@ -99,11 +100,13 @@ public class AddFirst_LL {
 
         System.out.println("Before adding :");
         list.displayLinkedList();
+        System.out.println(list.getSize());
 
         list.addFirst(999);
 
         System.out.println("\nAfter adding :");
         list.displayLinkedList();
+        System.out.println(list.getSize());
     }
 }
 
@@ -115,6 +118,7 @@ public class AddFirst_LL {
 // 98
 // 1
 // 100
+// 5
 
 // After adding :
 // 999
@@ -123,3 +127,4 @@ public class AddFirst_LL {
 // 98
 // 1
 // 100
+// 6
