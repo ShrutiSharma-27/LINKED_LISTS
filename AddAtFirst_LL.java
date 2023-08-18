@@ -86,6 +86,7 @@ class LinkedList{
         temp.next=head;
         head=temp;
         size++;
+        if(size==0) tail=head;
     }
 }
 
