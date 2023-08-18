@@ -46,6 +46,7 @@ class LinkedList{
         }
     }
 
+    // HERE are the mentioned functions :
     int getFirst(){
         if(size==0) {
             System.out.println("Linked List is empty.");
@@ -62,7 +63,6 @@ class LinkedList{
         return tail.data;
     }
 
-    // HERE are the mention functions :
     int getAt(int index){
         if(size==0) {
             System.out.println("Linked List is empty.");
