@@ -79,6 +79,7 @@ class LinkedList{
         return -1;
     }
 
+    // HERE is the mentioned function :
     void addFirst(int value){
         Node temp = new Node();
         temp.data=value;
