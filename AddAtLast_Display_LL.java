@@ -8,7 +8,7 @@ class LinkedList{
     Node tail;
     int size;
 
-    // HERE are the mention functions :
+    // HERE are the mentioned functions :
     void addLast(int value){
         Node temp=new Node();
         temp.data=value;
