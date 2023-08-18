@@ -4,6 +4,7 @@
 * Array data structures have a simple implementation.
 * Accessing elements in the array is very easy compared to the linked List. There is directed access to the element through indexing.
 * The array implements other data structures like a queue, stack, etc.
+* Need 4 bytes to store a single value but in linked lists, we need 8 bytes to store a value, i.e., 4 byte for data & 4 byte for pointer. 
 
 ### Disadvantages of Arrays over Linked Lists :
 * Data stored in the array takes place in a static manner, which means that we cannot change the size of the array at run time as in the linked List.
