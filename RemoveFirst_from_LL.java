@@ -34,7 +34,7 @@ class LinkedList{
         return size;
     }
 
-    // HERE are the mention functions :
+    // HERE is the mentioned function :
     void removeFirst(){
         if(size==0) System.out.println("Linked list is empty");
         else if (size==1) {
